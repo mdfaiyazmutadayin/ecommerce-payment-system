@@ -20,13 +20,13 @@ A backend system for managing users, products, orders, and payments with support
   <img width="1920" height="1200" alt="Screenshot (130)" src="https://github.com/user-attachments/assets/3612fb64-7325-4fb1-b246-ecf2a6d09bcd" />
 <img width="1919" height="1199" alt="Screenshot 2026-07-27 140559" src="https://github.com/user-attachments/assets/98eb5c4c-cfc8-4fb6-bb0e-19b516bbbe3d" />
 
-## Ngrok Inspect Images
+# Ngrok Inspect Images
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/be9c0f03-6eea-48f2-b736-7aad96c89f1e" />
 
 
 ---
 
-## Table of contents
+# Table of contents
 - [System architecture](#system-architecture)
 - [Entity relationship diagram](#entity-relationship-diagram)
 - [Tech stack](#tech-stack)
