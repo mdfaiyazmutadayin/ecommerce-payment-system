@@ -1,0 +1,1010 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\paymentstrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\paymentstrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|c:\\users\\faiya\\downloads\\ecommerce-payment-system\\ecommerce\\bll\\services\\paymentorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\services\\paymentorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\dtos\\checkoutresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\checkoutresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\dtos\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|c:\\users\\faiya\\downloads\\ecommerce-payment-system\\ecommerce\\dal\\interfaces\\ipaymentorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ipaymentorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\interfaces\\ipaymentstrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ipaymentstrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|c:\\users\\faiya\\downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\repos\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\rediscacheprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\rediscacheprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\servicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\servicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\dtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\dtos\\categorytreedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\categorytreedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\interfaces\\icategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\icategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\dtos\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\services\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\services\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\migrations\\202607250812296_allowrootcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202607250812296_allowrootcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\umscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\umscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\repos\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\migrations\\202607250800448_updateproductfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202607250800448_updateproductfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\repos\\paymentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\paymentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\interfaces\\ipaymentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ipaymentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\repos\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\models\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\models\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\migrations\\202607231558003_init db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202607231558003_init db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\interfaces\\iproductrepo.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iproductrepo.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\interfaces\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\dtos\\paymentconfirmresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\paymentconfirmresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\dtos\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentOrchestrator.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\PaymentOrchestrator.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\PaymentOrchestrator.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\PaymentOrchestrator.cs",
+              "RelativeToolTip": "BLL\\Services\\PaymentOrchestrator.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAcwI8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T06:22:16.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentStrategyFactory.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\PaymentStrategyFactory.cs",
+              "RelativeDocumentMoniker": "DAL\\PaymentStrategyFactory.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\PaymentStrategyFactory.cs",
+              "RelativeToolTip": "DAL\\PaymentStrategyFactory.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAYwFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T05:53:12.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "ecommerce\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "ecommerce\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T06:03:29.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CheckoutDto.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\CheckoutDto.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\CheckoutDto.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\CheckoutDto.cs",
+              "RelativeToolTip": "BLL\\DTOs\\CheckoutDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T15:25:44.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CheckoutResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\CheckoutResponseDto.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\CheckoutResponseDto.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\CheckoutResponseDto.cs",
+              "RelativeToolTip": "BLL\\DTOs\\CheckoutResponseDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T15:27:15.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPaymentOrchestrator.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IPaymentOrchestrator.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IPaymentOrchestrator.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IPaymentOrchestrator.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IPaymentOrchestrator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T15:32:00.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "BLL\\Class1.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Class1.cs",
+              "RelativeToolTip": "BLL\\Class1.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAWwBkAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T13:39:58.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPaymentStrategyFactory.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IPaymentStrategyFactory.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IPaymentStrategyFactory.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IPaymentStrategyFactory.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IPaymentStrategyFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T18:28:22.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Web.config",
+              "RelativeDocumentMoniker": "ecommerce\\Web.config",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Web.config",
+              "RelativeToolTip": "ecommerce\\Web.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-07-25T18:45:02.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "ecommerce\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "ecommerce\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T04:41:03.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\packages.config",
+              "RelativeDocumentMoniker": "ecommerce\\packages.config",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\packages.config",
+              "RelativeToolTip": "ecommerce\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-07-25T19:18:56.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ecommerce\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ecommerce\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T06:08:24.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ecommerce\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ecommerce\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T15:44:46.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ecommerce\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ecommerce\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T06:00:03.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "ecommerce\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "ecommerce\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T06:02:41.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RedisCacheProvider.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\RedisCacheProvider.cs",
+              "RelativeDocumentMoniker": "BLL\\RedisCacheProvider.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\RedisCacheProvider.cs",
+              "RelativeToolTip": "BLL\\RedisCacheProvider.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAtwA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T06:50:12.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Repos\\CategoryRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\CategoryRepo.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Repos\\CategoryRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\CategoryRepo.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T06:05:07.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\CategoryService.cs",
+              "RelativeToolTip": "BLL\\Services\\CategoryService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T06:07:03.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoryTreeDto.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\CategoryTreeDto.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\CategoryTreeDto.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\CategoryTreeDto.cs",
+              "RelativeToolTip": "BLL\\DTOs\\CategoryTreeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T06:06:07.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\CreateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\CreateCategoryDto.cs",
+              "RelativeToolTip": "BLL\\DTOs\\CreateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T06:06:33.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServiceFactory.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\ServiceFactory.cs",
+              "RelativeDocumentMoniker": "BLL\\ServiceFactory.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\ServiceFactory.cs",
+              "RelativeToolTip": "BLL\\ServiceFactory.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T05:50:58.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICategoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\ICategoryRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\ICategoryRepo.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\ICategoryRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\ICategoryRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T06:04:27.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DataAccessFactory.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\DataAccessFactory.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\DataAccessFactory.cs",
+              "RelativeToolTip": "DAL\\DataAccessFactory.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBgAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T15:45:23.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\UserService.cs",
+              "RelativeToolTip": "BLL\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T15:42:41.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\PasswordHasher.cs",
+              "RelativeToolTip": "BLL\\Services\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T15:41:58.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\UserResponseDto.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\UserResponseDto.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\UserResponseDto.cs",
+              "RelativeToolTip": "BLL\\DTOs\\UserResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T15:41:21.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "BLL\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T15:40:50.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RegisterUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\RegisterUserDto.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\RegisterUserDto.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\RegisterUserDto.cs",
+              "RelativeToolTip": "BLL\\DTOs\\RegisterUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T15:40:18.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Repos\\UserRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\UserRepo.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Repos\\UserRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\UserRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T15:39:11.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IUserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IUserRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IUserRepo.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IUserRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IUserRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T15:38:18.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "202607250812296_AllowRootCategories.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Migrations\\202607250812296_AllowRootCategories.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202607250812296_AllowRootCategories.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Migrations\\202607250812296_AllowRootCategories.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202607250812296_AllowRootCategories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T08:12:34.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\ProductDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T20:06:57.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StockService.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\StockService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\StockService.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\StockService.cs",
+              "RelativeToolTip": "BLL\\Services\\StockService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T15:00:11.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepo.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T18:09:50.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "202607250800448_UpdateProductFields.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Migrations\\202607250800448_UpdateProductFields.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202607250800448_UpdateProductFields.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Migrations\\202607250800448_UpdateProductFields.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202607250800448_UpdateProductFields.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T08:00:50.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProductRepo.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Repos\\ProductRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\ProductRepo.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Repos\\ProductRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\ProductRepo.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T14:34:03.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UMSContext.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\UMSContext.cs",
+              "RelativeDocumentMoniker": "DAL\\UMSContext.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\UMSContext.cs",
+              "RelativeToolTip": "DAL\\UMSContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA/wB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T13:40:43.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "OrderRepo.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Repos\\OrderRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\OrderRepo.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Repos\\OrderRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\OrderRepo.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswCcAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T14:32:29.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\ProductService.cs",
+              "RelativeToolTip": "BLL\\Services\\ProductService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T06:07:06.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IPaymentRepo.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IPaymentRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IPaymentRepo.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IPaymentRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IPaymentRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T17:40:26.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PaymentRepo.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Repos\\PaymentRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\PaymentRepo.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Repos\\PaymentRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\PaymentRepo.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAIwEYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T14:35:02.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\User.cs",
+              "RelativeToolTip": "DAL\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:09:20.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\Product.cs",
+              "RelativeToolTip": "DAL\\Models\\Product.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA2wBEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:12:18.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\Payment.cs",
+              "RelativeToolTip": "DAL\\Models\\Payment.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwA4AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:31:13.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\OrderItem.cs",
+              "RelativeToolTip": "DAL\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:30:15.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\Order.cs",
+              "RelativeToolTip": "DAL\\Models\\Order.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:28:43.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\Category.cs",
+              "RelativeToolTip": "DAL\\Models\\Category.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:11:11.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Base.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\Base.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Base.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\Base.cs",
+              "RelativeToolTip": "DAL\\Models\\Base.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T14:53:37.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "DAL\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:56:59.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "202607231558003_init Db.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Migrations\\202607231558003_init Db.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202607231558003_init Db.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Migrations\\202607231558003_init Db.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202607231558003_init Db.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:58:13.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IProductRepo.cs.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IProductRepo.cs.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IProductRepo.cs.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IProductRepo.cs.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IProductRepo.cs.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwA0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T18:09:48.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IOrderRepo.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IOrderRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IOrderRepo.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IOrderRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IOrderRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T18:09:42.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PaymentStatus.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Enums\\PaymentStatus.cs",
+              "RelativeDocumentMoniker": "DAL\\Enums\\PaymentStatus.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Enums\\PaymentStatus.cs",
+              "RelativeToolTip": "DAL\\Enums\\PaymentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:27:48.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Enums\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "DAL\\Enums\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Enums\\OrderStatus.cs",
+              "RelativeToolTip": "DAL\\Enums\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:26:44.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\packages.config",
+              "RelativeDocumentMoniker": "BLL\\packages.config",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\packages.config",
+              "RelativeToolTip": "BLL\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-07-25T05:16:45.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PaymentConfirmResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\PaymentConfirmResponseDto.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\PaymentConfirmResponseDto.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\PaymentConfirmResponseDto.cs",
+              "RelativeToolTip": "BLL\\DTOs\\PaymentConfirmResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T15:39:01.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "OrderItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\OrderItemDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\OrderItemDTO.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\OrderItemDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\OrderItemDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T19:16:57.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\CreateOrderDto.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\CreateOrderDto.cs",
+              "RelativeToolTip": "BLL\\DTOs\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T15:24:09.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\OrderService.cs",
+              "RelativeToolTip": "BLL\\Services\\OrderService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAUwD8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T15:14:38.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "OrderResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\OrderResponseDto.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\OrderResponseDto.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\OrderResponseDto.cs",
+              "RelativeToolTip": "BLL\\DTOs\\OrderResponseDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T15:26:20.592Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

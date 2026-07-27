@@ -1,0 +1,61 @@
+/* Reset & base */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #f5f7fb; padding: 20px; }
+.app { max-width: 1400px; margin: 0 auto; background: white; border-radius: 16px; padding: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+
+/* Header */
+header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 16px; border-bottom: 1px solid #e9ecf0; margin-bottom: 16px; }
+header h1 { font-size: 24px; font-weight: 600; }
+.header-right { display: flex; align-items: center; gap: 12px; }
+.user-badge { background: #eef2f6; padding: 6px 14px; border-radius: 20px; font-size: 14px; }
+.logout-btn { background: #fee2e2; border: none; padding: 6px 14px; border-radius: 20px; color: #b91c1c; cursor: pointer; font-weight: 500; }
+.logout-btn:hover { background: #fecaca; }
+
+/* Status */
+.status { background: #f0f9ff; padding: 12px 16px; border-radius: 10px; margin-bottom: 20px; border-left: 4px solid #0284c7; font-size: 15px; }
+
+/* Auth section (centered, no products) */
+.auth-section { max-width: 400px; margin: 40px auto; background: #f9fafc; padding: 24px; border-radius: 16px; }
+.tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+.tabs button { flex: 1; padding: 10px; border: none; background: #e9ecf0; border-radius: 8px; cursor: pointer; font-weight: 500; }
+.tabs button.active { background: #1e293b; color: white; }
+.auth-section form { display: flex; flex-direction: column; gap: 12px; }
+.auth-section input { padding: 10px 12px; border: 1px solid #d1d5db; border-radius: 8px; }
+.auth-section button[type="submit"] { background: #1e293b; color: white; border: none; padding: 12px; border-radius: 8px; font-weight: 600; cursor: pointer; }
+
+/* Main layout (products + cart) – only shown after login */
+.main-layout { display: flex; gap: 32px; margin-top: 16px; flex-wrap: wrap; }
+.product-section { flex: 2; min-width: 300px; }
+.cart-section { flex: 1; min-width: 280px; background: #f8fafc; padding: 20px; border-radius: 16px; align-self: flex-start; position: sticky; top: 20px; max-height: 80vh; overflow-y: auto; }
+
+/* Product grid */
+.product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+.product { background: white; border: 1px solid #e9ecf0; border-radius: 12px; padding: 16px; display: flex; flex-direction: column; transition: box-shadow 0.2s; }
+.product:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+.product h3 { font-size: 16px; margin-bottom: 6px; }
+.product p { font-size: 14px; color: #4b5563; margin-bottom: 8px; flex: 1; }
+.price { font-weight: 600; color: #0f172a; }
+.stock { color: #6b7280; font-size: 13px; }
+.product button { margin-top: 12px; background: #2563eb; color: white; border: none; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-weight: 500; }
+.product button:hover { background: #1d4ed8; }
+
+/* Cart */
+.cart-items { list-style: none; padding: 0; margin: 0 0 16px 0; }
+.cart-items li { display: flex; align-items: center; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #e9ecf0; gap: 8px; }
+.cart-items li span:first-child { flex: 1; }
+.cart-items li button { border: none; background: #e9ecf0; border-radius: 4px; width: 28px; height: 28px; font-weight: bold; cursor: pointer; }
+.cart-items li .remove-btn { background: #fee2e2; color: #b91c1c; }
+.cart-items li .add-btn { background: #dbeafe; color: #1e40af; }
+.cart-total { font-size: 18px; margin: 12px 0 16px; text-align: right; }
+.place-order-btn { width: 100%; padding: 12px; background: #059669; color: white; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; }
+.place-order-btn:disabled { background: #94a3b8; cursor: not-allowed; }
+
+/* Payment options */
+.payment-options { margin-top: 20px; padding-top: 16px; border-top: 1px solid #e9ecf0; }
+.payment-options button { margin-right: 10px; padding: 8px 16px; border: none; border-radius: 8px; background: #1e293b; color: white; cursor: pointer; font-weight: 500; }
+.payment-options button:hover { background: #0f172a; }
+
+@media (max-width: 768px) {
+  .main-layout { flex-direction: column; }
+  .cart-section { position: static; max-height: none; }
+}

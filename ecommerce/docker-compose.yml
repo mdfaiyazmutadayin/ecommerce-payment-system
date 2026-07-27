@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  ecommerce-api:
+    build:
+      context: ./ecommerce
+      dockerfile: Dockerfile
+    container_name: ecommerce-api
+    ports:
+      - "8080:80"
+    depends_on:
+      - sql-server
+      - redis
+    networks:
+      - ecommerce-net
+
+  sql-server:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: ecommerce-sql
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrong!Passw0rd
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql-data:/var/opt/mssql
+    networks:
+      - ecommerce-net
+
+  redis:
+    image: redis:latest
+    container_name: ecommerce-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - ecommerce-net
+
+networks:
+  ecommerce-net:
+    driver: bridge
+
+volumes:
+  sql-data:
