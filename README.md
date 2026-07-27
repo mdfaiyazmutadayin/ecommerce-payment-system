@@ -3,9 +3,12 @@
 A backend system for managing users, products, orders, and payments with support for multiple payment providers (Stripe, bKash), built with a 3-layer .NET Framework architecture ((ecommerce)-Presentation Layer / BLL / DAL).
 
 **Live demo:** `https://ecommerce-payment-system.vercel.app/` `Email-faiyaz123@outlook.com, Password- 1234`
+
 **API base URL (via ngrok tunnel):** `https://bubble-epidermis-landslide.ngrok-free.dev`
+
 **Example:** `https://bubble-epidermis-landslide.ngrok-free.dev/api/Product/all`
-> ⚠️ The backend runs locally and is exposed via ngrok per the assessment's deployment requirement. If the link above is unreachable, it means the local machine hosting it is offline — see [Known Limitations](#known-limitations).
+
+The backend runs locally and is exposed via ngrok per the assessment's deployment requirement. If the link above is unreachable, it means the local machine hosting it is offline — see [Known Limitations](#known-limitations).
 
 # Frontend Images
 <img width="1918" height="1136" alt="Screenshot 2026-07-27 140731" src="https://github.com/user-attachments/assets/2a4616a5-8306-405b-a55a-8db7da6fdac7" />
