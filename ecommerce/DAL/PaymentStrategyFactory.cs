@@ -136,7 +136,7 @@ namespace DAL
             var body = new JObject
             {
                 ["mode"] = "0011",
-                ["payerReference"] = "01770618575", // sandbox test wallet number
+                ["payerReference"] = "01619777283", // sandbox test wallet number
                 ["callbackURL"] = "https://localhost:44326/api/Payment/bkash-callback",
                 ["amount"] = amount.ToString("0.00"),
                 ["currency"] = "BDT",
@@ -168,10 +168,18 @@ namespace DAL
             request.Content = new StringContent(body.ToString(), Encoding.UTF8, "application/json");
 
             var response = await _http.SendAsync(request);
-            var json = JObject.Parse(await response.Content.ReadAsStringAsync());
+            var raw = await response.Content.ReadAsStringAsync();
+            System.Diagnostics.Debug.WriteLine($"[bKash Execute] {raw}");   // <-- TEMP: see it in Output window
 
+            var json = JObject.Parse(raw);
             var status = json["transactionStatus"]?.ToString();
-            return status == "Completed";
+            var statusCode = json["statusCode"]?.ToString();
+            var statusMessage = json["statusMessage"]?.ToString();
+
+            if (status != "Completed")
+                throw new Exception($"bKash Execute failed: statusCode={statusCode}, statusMessage={statusMessage}, raw={raw}");
+
+            return true;
         }
 
         public async Task<bool> QueryPaymentAsync(string transactionId)
@@ -187,10 +195,18 @@ namespace DAL
             request.Content = new StringContent(body.ToString(), Encoding.UTF8, "application/json");
 
             var response = await _http.SendAsync(request);
-            var json = JObject.Parse(await response.Content.ReadAsStringAsync());
+            var raw = await response.Content.ReadAsStringAsync();
+            System.Diagnostics.Debug.WriteLine($"[bKash Query] {raw}");   // <-- TEMP: see it in Output window
 
+            var json = JObject.Parse(raw);
             var status = json["transactionStatus"]?.ToString();
-            return status == "Completed";
+            var statusCode = json["statusCode"]?.ToString();
+            var statusMessage = json["statusMessage"]?.ToString();
+
+            if (status != "Completed")
+                throw new Exception($"bKash Query failed: statusCode={statusCode}, statusMessage={statusMessage}, raw={raw}");
+
+            return true;
         }
     }
 }

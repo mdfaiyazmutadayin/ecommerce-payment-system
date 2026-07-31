@@ -9,5 +9,6 @@ namespace BLL.DTOs
     public class CheckoutDto
     {
         public string Provider { get; set; } = string.Empty; // stripe | bkash
+
     }
 }
