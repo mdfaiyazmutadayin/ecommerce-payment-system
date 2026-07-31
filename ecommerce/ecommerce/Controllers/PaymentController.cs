@@ -2,6 +2,7 @@
 using BLL.DTOs;
 using Newtonsoft.Json.Linq;
 using Stripe;
+using Stripe.Checkout;
 using System;
 using System.Configuration;
 using System.Linq;
@@ -23,18 +24,14 @@ namespace ecommerce.Controllers
 
             try
             {
-                // Call the service layer – it should now return a redirect URL for Stripe as well.
                 var (transactionId, provider, rawResponse) = await ServiceFactory.PaymentData().CheckoutAsync(orderId, dto.Provider);
 
                 string redirectUrl = null;
-                // For bKash, extract the bKash payment URL from rawResponse.
                 if (provider.ToLower() == "bkash")
                 {
                     var json = JObject.Parse(rawResponse);
                     redirectUrl = json["bkashURL"]?.ToString();
                 }
-                // For Stripe, the service should already provide the Checkout Session URL in rawResponse.
-                // We'll assume rawResponse contains a "url" field for Stripe.
                 else if (provider.ToLower() == "stripe")
                 {
                     var json = JObject.Parse(rawResponse);
@@ -46,7 +43,7 @@ namespace ecommerce.Controllers
                     Provider = provider,
                     TransactionId = transactionId,
                     Status = "pending",
-                    RedirectUrl = redirectUrl   // Now always populated for both providers
+                    RedirectUrl = redirectUrl
                 };
                 return Request.CreateResponse(HttpStatusCode.OK, result);
             }
@@ -62,14 +59,8 @@ namespace ecommerce.Controllers
         {
             try
             {
-                // This endpoint is now used ONLY for bKash (or other non‑redirect providers).
-                // For Stripe, the webhook will automatically update order status, so we could
-                // optionally return a "not supported" message if provider == "stripe".
                 if (provider.ToLower() == "stripe")
                 {
-                    // Instead of a manual confirm, you can query the Payment Intent status
-                    // and return the current status (but this is not a confirmation action).
-                    // We'll keep it as a status check for Stripe if needed.
                     var status = await ServiceFactory.PaymentData().GetPaymentStatusAsync(provider, transactionId);
                     var result = new PaymentConfirmResponseDto
                     {
@@ -82,7 +73,6 @@ namespace ecommerce.Controllers
                     return Request.CreateResponse(HttpStatusCode.OK, result);
                 }
 
-                // For bKash, we actually confirm the payment.
                 var success = await ServiceFactory.PaymentData().ConfirmPaymentAsync(provider, transactionId);
                 var resultBkash = new PaymentConfirmResponseDto
                 {
@@ -115,7 +105,6 @@ namespace ecommerce.Controllers
                     return Request.CreateResponse(HttpStatusCode.OK, new { paymentID, confirmed });
                 }
 
-                // status will be "failure" or "cancel" per bKash's docs
                 await ServiceFactory.PaymentData().MarkFailedAsync("bkash", paymentID);
                 return Request.CreateResponse(HttpStatusCode.OK, new { paymentID, status = "failed" });
             }
@@ -143,22 +132,40 @@ namespace ecommerce.Controllers
             {
                 var stripeEvent = EventUtility.ConstructEvent(json, signatureHeader, webhookSecret);
 
-                if (stripeEvent.Type == "payment_intent.succeeded")
+                // ─────────────────────────────────────────────────────────────
+                // BUG 1 FIX: Was listening for "payment_intent.succeeded" but
+                // Stripe Checkout fires "checkout.session.completed" instead.
+                // payment_intent.succeeded never fires for Checkout Sessions,
+                // so ConfirmByProviderTransactionAsync was NEVER called.
+                // ─────────────────────────────────────────────────────────────
+                if (stripeEvent.Type == "checkout.session.completed")
                 {
-                    var intent = stripeEvent.Data.Object as PaymentIntent;
-                    await ServiceFactory.PaymentData().ConfirmByProviderTransactionAsync("stripe", intent.Id);
+                    var session = stripeEvent.Data.Object as Session;
+
+                    // ─────────────────────────────────────────────────────────
+                    // BUG 2 FIX: Was passing intent.Id (pi_xxx — PaymentIntent
+                    // ID) but your DB stores session.Id (cs_xxx — Session ID)
+                    // from CheckoutAsync. The lookup returned null every time,
+                    // so stock was never touched.
+                    // ─────────────────────────────────────────────────────────
+                    if (session?.PaymentStatus == "paid")
+                    {
+                        await ServiceFactory.PaymentData()
+                            .ConfirmByProviderTransactionAsync("stripe", session.Id); // cs_xxx
+                    }
                 }
-                else if (stripeEvent.Type == "payment_intent.payment_failed")
+                else if (stripeEvent.Type == "checkout.session.async_payment_failed")
                 {
-                    var intent = stripeEvent.Data.Object as PaymentIntent;
-                    await ServiceFactory.PaymentData().MarkFailedAsync("stripe", intent.Id);
+                    // Handle async payment failure (e.g. bank redirects)
+                    var session = stripeEvent.Data.Object as Session;
+                    if (session != null)
+                        await ServiceFactory.PaymentData().MarkFailedAsync("stripe", session.Id);
                 }
 
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             catch (StripeException ex)
             {
-                // Signature invalid, or malformed payload — reject, don't process
                 return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
             }
         }

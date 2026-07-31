@@ -38,12 +38,12 @@ namespace BLL.Services
             var strategy = _strategyFactory.GetStrategy(provider);
             var (transactionId, rawResponse) = await strategy.CheckoutAsync(order.TotalAmount);
 
-            // Store the payment record
+            // Store the payment record — transactionId here is session.Id (cs_xxx) for Stripe
             _paymentRepo.Create(new Payment
             {
                 OrderId = orderId,
                 Provider = provider.ToLower(),
-                TransactionId = transactionId,
+                TransactionId = transactionId,   // cs_xxx for Stripe, paymentID for bKash
                 RawResponse = rawResponse,
                 Status = PaymentStatus.Pending
             });
@@ -52,12 +52,11 @@ namespace BLL.Services
             return (transactionId, provider, rawResponse);
         }
 
-        // NEW: Get current payment status from our DB (or optionally from provider)
         public async Task<string> GetPaymentStatusAsync(string provider, string transactionId)
         {
             var payment = await _paymentRepo.GetByTransactionAndProviderAsync(transactionId, provider.ToLower());
             if (payment == null) return "not_found";
-            return payment.Status.ToString().ToLower(); // pending, success, failed
+            return payment.Status.ToString().ToLower();
         }
 
         public async Task MarkFailedAsync(string provider, string transactionId)
@@ -71,21 +70,34 @@ namespace BLL.Services
 
         public async Task<bool> ConfirmByProviderTransactionAsync(string provider, string providerTransactionId)
         {
+            // providerTransactionId = session.Id (cs_xxx) for Stripe — matches what we stored in CheckoutAsync
             var payment = await _paymentRepo.GetByTransactionAndProviderAsync(providerTransactionId, provider.ToLower());
             if (payment == null) return false;
-            if (payment.Status == PaymentStatus.Success) return true; // idempotent
+            if (payment.Status == PaymentStatus.Success) return true; // idempotent — safe for webhook retries
 
             var order = await _orderRepo.GetOrderWithItemsAsync(payment.OrderId)
                         ?? throw new Exception("Order not found");
 
+            // ─────────────────────────────────────────────────────────────────
+            // BUG 3 FIX: Original code set payment.Status and order.Status
+            // inside ExecuteInTransactionAsync but never called SaveChangesAsync
+            // afterwards. The DB was never actually updated, so stock stayed
+            // the same and the order stayed "pending" after every payment.
+            // ─────────────────────────────────────────────────────────────────
             await _paymentRepo.ExecuteInTransactionAsync(async () =>
             {
                 var mapper = StockService.MapperConfig.GetMapper();
                 var itemDtos = mapper.Map<IEnumerable<OrderItemDTO>>(order.OrderItems);
+
+                // Validate stock and reduce quantities in Products table
                 await _stockService.ValidateAndReduceAsync(itemDtos);
 
                 payment.Status = PaymentStatus.Success;
                 order.Status = OrderStatus.Paid;
+
+                // BUG 3 FIX: SaveChangesAsync was missing — without this line
+                // none of the status changes above were ever persisted to the DB.
+                await _paymentRepo.SaveChangesAsync();
             });
 
             return true;
@@ -98,12 +110,8 @@ namespace BLL.Services
 
             if (payment.Status == PaymentStatus.Success) return true; // idempotent
 
-            // For Stripe, we should NOT call Execute/Query because the webhook already updates status.
-            // Instead, we can just return the current status (or throw an error).
             if (provider.ToLower() == "stripe")
             {
-                // Since Stripe uses webhooks, this endpoint is not meant for manual confirmation.
-                // We'll just return the current status from DB (or throw a clear error).
                 throw new Exception("Stripe payments are confirmed via webhook. Please check order status instead.");
             }
 
@@ -116,8 +124,6 @@ namespace BLL.Services
                 await _paymentRepo.SaveChangesAsync();
                 return false;
             }
-
-         
 
             var order = await _orderRepo.GetOrderWithItemsAsync(payment.OrderId)
                         ?? throw new Exception("Order not found");
@@ -132,17 +138,17 @@ namespace BLL.Services
 
                     payment.Status = PaymentStatus.Success;
                     order.Status = OrderStatus.Paid;
+
+                    // SaveChangesAsync included here too for consistency
+                    await _paymentRepo.SaveChangesAsync();
                 });
             }
             catch (Exception ex)
             {
-                // Payment was already captured by bKash, but our side failed post-payment
-                // (e.g. stock ran out). Mark for manual review / refund instead of leaving it Pending.
                 payment.Status = PaymentStatus.Failed;
                 await _paymentRepo.SaveChangesAsync();
                 throw new Exception("Payment captured but order could not be completed. Refund required.", ex);
             }
-            // ---- TO HERE ----
 
             return true;
         }
