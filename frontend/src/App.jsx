@@ -17,18 +17,6 @@ useEffect(() => {
   api.getProducts().then(setProducts).catch((e) => setStatus(e.message));
 }, []);
 
-useEffect(() => {
-  const params = new URLSearchParams(window.location.search);
-  const paymentStatus = params.get("payment");
-  if (paymentStatus === "success") {
-    setStatus("✅ Payment successful! Your order has been placed.");
-    // ⬇️ Force refetch products to get updated stock
-    api.getProducts().then(setProducts).catch((e) => setStatus(e.message));
-  } else if (paymentStatus === "cancel") {
-    setStatus("❌ Payment was cancelled.");
-  }
-}, []);
-
   const scrollToStatus = () => {
     setTimeout(() => {
       statusRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
