@@ -19,6 +19,16 @@ export default function App() {
     api.getProducts().then(setProducts).catch((e) => setStatus(e.message));
   }, []);
 
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const paymentStatus = params.get("payment");
+    if (paymentStatus === "success") {
+      setStatus("✅ Payment successful! Your order has been placed.");
+    } else if (paymentStatus === "cancel") {
+      setStatus("❌ Payment was cancelled.");
+    }
+  }, []);
+
   const scrollToStatus = () => {
     setTimeout(() => {
       statusRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });

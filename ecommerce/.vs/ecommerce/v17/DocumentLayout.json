@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\services\\paymentorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\paymentstrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\paymentstrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|c:\\users\\faiya\\downloads\\ecommerce-payment-system\\ecommerce\\dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|c:\\users\\faiya\\downloads\\ecommerce-payment-system\\ecommerce\\bll\\services\\paymentorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\services\\paymentorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2CF92F1-1439-4822-ADC8-B50840C90708}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|c:\\users\\faiya\\downloads\\ecommerce-payment-system\\ecommerce\\dal\\paymentstrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|solutionrelative:dal\\paymentstrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB0DF62F-9061-4959-813F-01E8F545DCEA}|DAL\\DAL.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\dal\\interfaces\\ipaymentstrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFFF5F24-11C0-4DA3-A809-3460A7DED3D1}|ecommerce\\ecommerce.csproj|C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -250,32 +254,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PaymentStrategyFactory.cs",
-              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\PaymentStrategyFactory.cs",
-              "RelativeDocumentMoniker": "DAL\\PaymentStrategyFactory.cs",
-              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\PaymentStrategyFactory.cs",
-              "RelativeToolTip": "DAL\\PaymentStrategyFactory.cs",
-              "ViewState": "AgIAALUAAAAAAAAAAAAuwNEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T05:53:12.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PaymentOrchestrator.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\PaymentOrchestrator.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\PaymentOrchestrator.cs",
@@ -288,28 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Class1.cs",
-              "RelativeDocumentMoniker": "BLL\\Class1.cs",
-              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Class1.cs",
-              "RelativeToolTip": "BLL\\Class1.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAIAzwBoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T13:39:58.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "ecommerce\\Controllers\\PaymentController.cs",
@@ -321,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IPaymentStrategyFactory.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IPaymentStrategyFactory.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IPaymentStrategyFactory.cs",
@@ -333,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IPaymentOrchestrator.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IPaymentOrchestrator.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IPaymentOrchestrator.cs",
@@ -345,7 +311,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Web.config",
+              "RelativeDocumentMoniker": "ecommerce\\Web.config",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Web.config",
+              "RelativeToolTip": "ecommerce\\Web.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-07-25T18:45:02.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentStrategyFactory.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\PaymentStrategyFactory.cs",
+              "RelativeDocumentMoniker": "DAL\\PaymentStrategyFactory.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\PaymentStrategyFactory.cs",
+              "RelativeToolTip": "DAL\\PaymentStrategyFactory.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAtwEQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T05:53:12.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\App.config",
+              "RelativeDocumentMoniker": "DAL\\App.config",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\App.config",
+              "RelativeToolTip": "DAL\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-07-31T17:40:30.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "BLL\\Class1.cs",
+              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Class1.cs",
+              "RelativeToolTip": "BLL\\Class1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIAzwBoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T13:39:58.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CheckoutDto.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\CheckoutDto.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\CheckoutDto.cs",
@@ -357,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CheckoutResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\CheckoutResponseDto.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\CheckoutResponseDto.cs",
@@ -369,20 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Web.config",
-              "RelativeDocumentMoniker": "ecommerce\\Web.config",
-              "ToolTip": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Web.config",
-              "RelativeToolTip": "ecommerce\\Web.config",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-07-25T18:45:02.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "WebApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "ecommerce\\App_Start\\WebApiConfig.cs",
@@ -394,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\packages.config",
               "RelativeDocumentMoniker": "ecommerce\\packages.config",
@@ -406,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "ecommerce\\Controllers\\CategoryController.cs",
@@ -418,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ecommerce\\Controllers\\UserController.cs",
@@ -430,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ecommerce\\Controllers\\ProductController.cs",
@@ -442,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\ecommerce\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "ecommerce\\Controllers\\OrderController.cs",
@@ -454,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "RedisCacheProvider.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\RedisCacheProvider.cs",
               "RelativeDocumentMoniker": "BLL\\RedisCacheProvider.cs",
@@ -466,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CategoryRepo.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Repos\\CategoryRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\CategoryRepo.cs",
@@ -478,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\CategoryService.cs",
@@ -490,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "CategoryTreeDto.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\CategoryTreeDto.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\CategoryTreeDto.cs",
@@ -502,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "CreateCategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\CreateCategoryDto.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\CreateCategoryDto.cs",
@@ -514,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ServiceFactory.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\ServiceFactory.cs",
               "RelativeDocumentMoniker": "BLL\\ServiceFactory.cs",
@@ -526,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ICategoryRepo.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\ICategoryRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\ICategoryRepo.cs",
@@ -538,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "DataAccessFactory.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\DataAccessFactory.cs",
               "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
@@ -550,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\UserService.cs",
@@ -562,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\PasswordHasher.cs",
@@ -574,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "UserResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\UserResponseDto.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\UserResponseDto.cs",
@@ -586,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\LoginDto.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\LoginDto.cs",
@@ -598,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "RegisterUserDto.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\RegisterUserDto.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\RegisterUserDto.cs",
@@ -610,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "UserRepo.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Repos\\UserRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\UserRepo.cs",
@@ -622,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "IUserRepo.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IUserRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IUserRepo.cs",
@@ -634,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "202607250812296_AllowRootCategories.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Migrations\\202607250812296_AllowRootCategories.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\202607250812296_AllowRootCategories.cs",
@@ -646,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\ProductDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\ProductDTO.cs",
@@ -658,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "StockService.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\StockService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\StockService.cs",
@@ -670,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "IRepo.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepo.cs",
@@ -682,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "202607250800448_UpdateProductFields.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Migrations\\202607250800448_UpdateProductFields.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\202607250800448_UpdateProductFields.cs",
@@ -694,7 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "ProductRepo.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Repos\\ProductRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\ProductRepo.cs",
@@ -706,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "UMSContext.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\UMSContext.cs",
               "RelativeDocumentMoniker": "DAL\\UMSContext.cs",
@@ -718,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "OrderRepo.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Repos\\OrderRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\OrderRepo.cs",
@@ -730,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\ProductService.cs",
@@ -742,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "IPaymentRepo.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IPaymentRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IPaymentRepo.cs",
@@ -754,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "PaymentRepo.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Repos\\PaymentRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\PaymentRepo.cs",
@@ -766,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\User.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\User.cs",
@@ -778,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\Product.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\Product.cs",
@@ -790,7 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\Payment.cs",
@@ -802,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\OrderItem.cs",
@@ -814,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\Order.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\Order.cs",
@@ -826,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\Category.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\Category.cs",
@@ -838,7 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Base.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Models\\Base.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\Base.cs",
@@ -850,7 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
@@ -862,7 +878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "202607231558003_init Db.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Migrations\\202607231558003_init Db.cs",
               "RelativeDocumentMoniker": "DAL\\Migrations\\202607231558003_init Db.cs",
@@ -874,7 +890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "IProductRepo.cs.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IProductRepo.cs.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IProductRepo.cs.cs",
@@ -886,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "IOrderRepo.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Interfaces\\IOrderRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IOrderRepo.cs",
@@ -898,7 +914,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "PaymentStatus.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Enums\\PaymentStatus.cs",
               "RelativeDocumentMoniker": "DAL\\Enums\\PaymentStatus.cs",
@@ -910,7 +926,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "OrderStatus.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\DAL\\Enums\\OrderStatus.cs",
               "RelativeDocumentMoniker": "DAL\\Enums\\OrderStatus.cs",
@@ -922,7 +938,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\packages.config",
               "RelativeDocumentMoniker": "BLL\\packages.config",
@@ -934,7 +950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "PaymentConfirmResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\PaymentConfirmResponseDto.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\PaymentConfirmResponseDto.cs",
@@ -946,7 +962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "OrderItemDTO.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\OrderItemDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\OrderItemDTO.cs",
@@ -958,7 +974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "CreateOrderDto.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\CreateOrderDto.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\CreateOrderDto.cs",
@@ -970,7 +986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\OrderService.cs",
@@ -982,7 +998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "OrderResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\faiya\\Downloads\\ecommerce-payment-system\\ecommerce\\BLL\\DTOs\\OrderResponseDto.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\OrderResponseDto.cs",

@@ -64,8 +64,8 @@ namespace DAL
             },
                 Mode = "payment",
                 // ⚠️ IMPORTANT: Replace these URLs with your real frontend URLs
-                SuccessUrl = "https://your-frontend.com/order-success?session_id={CHECKOUT_SESSION_ID}",
-                CancelUrl = "https://your-frontend.com/order-cancel",
+                SuccessUrl = "https://ecommerce-payment-system.vercel.app/?payment=success",
+                CancelUrl = "https://ecommerce-payment-system.vercel.app/?payment=cancel",
             };
 
             var session = await _sessionService.CreateAsync(options);
