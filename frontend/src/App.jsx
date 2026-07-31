@@ -13,6 +13,9 @@ export default function App() {
   const [mode, setMode] = useState("login");
   const statusRef = useRef(null);
 
+useEffect(() => {
+  api.getProducts().then(setProducts).catch((e) => setStatus(e.message));
+}, []);
 
 useEffect(() => {
   const params = new URLSearchParams(window.location.search);
