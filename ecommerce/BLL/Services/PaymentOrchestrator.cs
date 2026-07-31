@@ -117,26 +117,32 @@ namespace BLL.Services
                 return false;
             }
 
-            var verified = await strategy.QueryPaymentAsync(transactionId);
-            if (!verified)
-            {
-                payment.Status = PaymentStatus.Failed;
-                await _paymentRepo.SaveChangesAsync();
-                return false;
-            }
+         
 
             var order = await _orderRepo.GetOrderWithItemsAsync(payment.OrderId)
                         ?? throw new Exception("Order not found");
 
-            await _paymentRepo.ExecuteInTransactionAsync(async () =>
+            try
             {
-                var mapper = StockService.MapperConfig.GetMapper();
-                var itemDtos = mapper.Map<IEnumerable<OrderItemDTO>>(order.OrderItems);
-                await _stockService.ValidateAndReduceAsync(itemDtos);
+                await _paymentRepo.ExecuteInTransactionAsync(async () =>
+                {
+                    var mapper = StockService.MapperConfig.GetMapper();
+                    var itemDtos = mapper.Map<IEnumerable<OrderItemDTO>>(order.OrderItems);
+                    await _stockService.ValidateAndReduceAsync(itemDtos);
 
-                payment.Status = PaymentStatus.Success;
-                order.Status = OrderStatus.Paid;
-            });
+                    payment.Status = PaymentStatus.Success;
+                    order.Status = OrderStatus.Paid;
+                });
+            }
+            catch (Exception ex)
+            {
+                // Payment was already captured by bKash, but our side failed post-payment
+                // (e.g. stock ran out). Mark for manual review / refund instead of leaving it Pending.
+                payment.Status = PaymentStatus.Failed;
+                await _paymentRepo.SaveChangesAsync();
+                throw new Exception("Payment captured but order could not be completed. Refund required.", ex);
+            }
+            // ---- TO HERE ----
 
             return true;
         }

@@ -1,5 +1,3 @@
-C:\Users\faiya\Downloads\ecommerce-payment-system\ecommerce\ecommerce\obj\Debug\ecommerce.csproj.AssemblyReference.cache
-C:\Users\faiya\Downloads\ecommerce-payment-system\ecommerce\ecommerce\obj\Debug\ecommerce.csproj.CoreCompileInputs.cache
 C:\Users\faiya\Downloads\ecommerce-payment-system\ecommerce\ecommerce\bin\ecommerce.dll.config
 C:\Users\faiya\Downloads\ecommerce-payment-system\ecommerce\ecommerce\bin\ecommerce.dll
 C:\Users\faiya\Downloads\ecommerce-payment-system\ecommerce\ecommerce\bin\ecommerce.pdb
@@ -115,6 +113,8 @@ C:\Users\faiya\Downloads\ecommerce-payment-system\ecommerce\ecommerce\bin\Micros
 C:\Users\faiya\Downloads\ecommerce-payment-system\ecommerce\ecommerce\bin\DAL.pdb
 C:\Users\faiya\Downloads\ecommerce-payment-system\ecommerce\ecommerce\bin\DAL.dll.config
 C:\Users\faiya\Downloads\ecommerce-payment-system\ecommerce\ecommerce\bin\AutoMapper.xml
+C:\Users\faiya\Downloads\ecommerce-payment-system\ecommerce\ecommerce\obj\Debug\ecommerce.csproj.AssemblyReference.cache
+C:\Users\faiya\Downloads\ecommerce-payment-system\ecommerce\ecommerce\obj\Debug\ecommerce.csproj.CoreCompileInputs.cache
 C:\Users\faiya\Downloads\ecommerce-payment-system\ecommerce\ecommerce\obj\Debug\ecommerce.csproj.Up2Date
 C:\Users\faiya\Downloads\ecommerce-payment-system\ecommerce\ecommerce\obj\Debug\ecommerce.dll
 C:\Users\faiya\Downloads\ecommerce-payment-system\ecommerce\ecommerce\obj\Debug\ecommerce.pdb
