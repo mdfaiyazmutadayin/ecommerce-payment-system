@@ -13,21 +13,18 @@ export default function App() {
   const [mode, setMode] = useState("login");
   const statusRef = useRef(null);
 
-  useEffect(() => {
-    // Only fetch products after login?
-    // We'll fetch them anyway, but only display them after login.
-    api.getProducts().then(setProducts).catch((e) => setStatus(e.message));
-  }, []);
 
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const paymentStatus = params.get("payment");
-    if (paymentStatus === "success") {
-      setStatus("✅ Payment successful! Your order has been placed.");
-    } else if (paymentStatus === "cancel") {
-      setStatus("❌ Payment was cancelled.");
-    }
-  }, []);
+useEffect(() => {
+  const params = new URLSearchParams(window.location.search);
+  const paymentStatus = params.get("payment");
+  if (paymentStatus === "success") {
+    setStatus("✅ Payment successful! Your order has been placed.");
+    // ⬇️ Force refetch products to get updated stock
+    api.getProducts().then(setProducts).catch((e) => setStatus(e.message));
+  } else if (paymentStatus === "cancel") {
+    setStatus("❌ Payment was cancelled.");
+  }
+}, []);
 
   const scrollToStatus = () => {
     setTimeout(() => {

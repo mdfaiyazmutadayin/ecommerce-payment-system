@@ -132,40 +132,26 @@ namespace ecommerce.Controllers
             {
                 var stripeEvent = EventUtility.ConstructEvent(json, signatureHeader, webhookSecret);
 
-                // ─────────────────────────────────────────────────────────────
-                // BUG 1 FIX: Was listening for "payment_intent.succeeded" but
-                // Stripe Checkout fires "checkout.session.completed" instead.
-                // payment_intent.succeeded never fires for Checkout Sessions,
-                // so ConfirmByProviderTransactionAsync was NEVER called.
-                // ─────────────────────────────────────────────────────────────
-                if (stripeEvent.Type == "checkout.session.completed")
+                if (stripeEvent.Type == "payment_intent.succeeded")
                 {
-                    var session = stripeEvent.Data.Object as Session;
+                    var intent = stripeEvent.Data.Object as PaymentIntent;
+                    // ⬇️ Add this log:
+                    Console.WriteLine($"✅ Webhook received for PaymentIntent: {intent.Id}");
 
-                    // ─────────────────────────────────────────────────────────
-                    // BUG 2 FIX: Was passing intent.Id (pi_xxx — PaymentIntent
-                    // ID) but your DB stores session.Id (cs_xxx — Session ID)
-                    // from CheckoutAsync. The lookup returned null every time,
-                    // so stock was never touched.
-                    // ─────────────────────────────────────────────────────────
-                    if (session?.PaymentStatus == "paid")
-                    {
-                        await ServiceFactory.PaymentData()
-                            .ConfirmByProviderTransactionAsync("stripe", session.Id); // cs_xxx
-                    }
+                    await ServiceFactory.PaymentData().ConfirmByProviderTransactionAsync("stripe", intent.Id);
                 }
-                else if (stripeEvent.Type == "checkout.session.async_payment_failed")
+                else if (stripeEvent.Type == "payment_intent.payment_failed")
                 {
-                    // Handle async payment failure (e.g. bank redirects)
-                    var session = stripeEvent.Data.Object as Session;
-                    if (session != null)
-                        await ServiceFactory.PaymentData().MarkFailedAsync("stripe", session.Id);
+                    var intent = stripeEvent.Data.Object as PaymentIntent;
+                    await ServiceFactory.PaymentData().MarkFailedAsync("stripe", intent.Id);
                 }
 
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             catch (StripeException ex)
             {
+                // ⬇️ Add this log:
+                Console.WriteLine($"❌ Webhook signature verification failed: {ex.Message}");
                 return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
             }
         }
